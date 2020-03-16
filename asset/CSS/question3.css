@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    background-color: rgb(221, 226, 198);
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(36, 24, 68);
+    padding: 3%;
+}
+
+h2{
+    text-align: center;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(43, 32, 80);
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(151, 232, 245);
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+#japan, #france, #denmark, #german, #russia, #sweden, #italy, #colombia, #thailand, #uae, #switz, #indonesia {
+    padding-left: 31%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#german, #russia, #colombia, #thailand, #indonesia, #uae {
+    padding-right: 31%;
+}
+
+#japanWhite {
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+    background-color: white;
+}
+
+#japanRed {
+    display: inline-block;
+    width: 175px;
+    height: 175px;
+    background-color: red;
+    border-radius: 100%;
+    position: relative;
+    bottom: 62.5px;
+    right: 312px;
+}
+
+#franceBlue, #franceWhite, #franceRed, #italyGreen, #italyRed, #italyWhite {
+    display: inline-block;
+    width: 150px;
+    height: 300px;
+}
+
+#franceBlue {
+    background-color: blue;
+}
+
+#franceWhite {
+    background-color: white;
+    position: relative;
+    right: 4px;
+}
+
+#franceRed {
+    background-color: red;
+    position: relative;
+    right: 8px;
+}
+
+#denRed {
+    background-color: red;
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+}
+
+#denWhiteH {
+    background-color: white;
+    display: inline-block;
+    width: 450px;
+    height: 40px;
+    position: relative;
+    right: 498px;
+    bottom: 130px;
+}
+
+#denWhiteV {
+    background-color: white;
+    display: inline-block;
+    width: 40px;
+    height: 300px;
+    position: relative;
+    right: 309px;
+}
+
+#sweBlue {
+    background-color: blue;
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+}
+
+#sweYelV {
+    background-color: yellow;
+    display: inline-block;
+    width: 40px;
+    height: 300px;
+    position: relative;
+    right: 309px;
+}
+
+#sweYelH {
+    background-color: yellow;
+    display: inline-block;
+    width: 450px;
+    height: 40px;
+    position: relative;
+    right: 498px;
+    bottom: 130px;
+}
+
+#germanBlack{
+    display: inline-block;
+    width: 450px;
+    height: 100px;
+    background-color: black;
+}
+
+#germanRed{
+    display: inline-block;
+    width: 450px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    bottom: 4px;
+}
+
+#germanYellow{
+    display: inline-block;
+    width: 450px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    bottom: 8px;
+}
+
+#russiaWhite {
+    display: inline-block;
+    width: 450px;
+    height: 100px;
+    background-color: white;
+}
+
+#russiaBlue {
+    display: inline-block;
+    width: 450px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    bottom: 4px;
+}
+
+#russiaRed {
+    display: inline-block;
+    width: 450px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    bottom: 8px;
+}
+
+#italyGreen {
+    background-color: green;
+}
+
+#italyWhite {
+    background-color: white;
+    position: relative;
+    right: 4px;
+}
+
+#italyRed {
+    background-color: red;
+    position: relative;
+    right: 8px;
+}
+
+#colYel {
+    display: inline-block;
+    background-color: yellow;
+    width: 450px;
+    height: 150px;
+}
+
+#colBlue, #colRed {
+    display: inline-block;
+    width: 450px;
+    height: 75px;
+    position: relative;
+}
+
+#colBlue {
+    background-color: blue;
+    bottom: 4px;
+}
+
+#colRed {
+    background-color: red;
+    bottom: 8px;
+}
+
+#thaiRed1, #thaiWhite1, #thaiRed2, #thaiWhite2 {
+    display: inline-block;
+    width: 450px;
+    height: 50px;
+    position: relative;
+}
+
+#thaiRed1 {
+    background-color: red;
+}
+
+#thaiWhite1  {
+    background-color: white;
+    bottom: 4px;
+}
+
+#thaiBlue {
+    display: inline-block;
+    width: 450px;
+    position: relative;
+    height: 100px;
+    background-color: darkblue;
+    bottom: 8px;
+}
+
+#thaiWhite2 {
+    background-color: white;
+    bottom: 12px;
+}
+
+#thaiRed2{
+    background-color: red;
+    bottom: 16px;
+}
+
+#uaeRed {
+    display: inline-block;
+    width: 150px;
+    height: 300px;
+    background-color: red;
+}
+
+#uaeGreen, #uaeWhite, #uaeBlack {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    position: relative;
+}
+
+#uaeGreen {
+    background-color: green;
+    right: 4px;
+    bottom: 200px;
+}
+
+#uaeWhite {
+    background-color: white;
+    left: 150px;
+    bottom: 204px;
+}
+
+#uaeBlack {
+    background-color: black;
+    left: 150px;
+    bottom: 208px;
+}
+
+#swzRed {
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+    background-color: red;
+}
+
+#swzWhiteH {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    right: 329px;
+    bottom: 125px;
+}
+
+#swzWhiteV {
+    display: inline-block;
+    width: 50px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    bottom: 50px;
+    right: 458px;
+}
+
+#indoRed {
+    display: inline-block;
+    width: 450px;
+    height: 150px;
+    background-color: red;
+}
+
+#indoWhite {
+    display: inline-block;
+    width: 450px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    bottom: 4px;
+}
