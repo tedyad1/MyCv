@@ -17,6 +17,38 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+nav > ul > a > li {
+    display: inline-block;
+    padding: 10px 5px;
+    font-size: 1.25rem;
+    margin: 0% 0.5%;
+    width: 7%;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+nav > ul > a {
+    text-decoration: none;
+}
+
+nav > ul > a > li {
+    text-decoration: none;
+    color: white;
+}
+
+nav > ul > a > li:visited {
+    background-color: lightgreen;
+}
+
+nav > ul > a > li:hover {
+    border-bottom: 3px white solid;
+}
+
+nav > ul > a > li:active {
+    background-color: hsl(185, 63%, 40%);
+}
+
 section {
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px 30px;
@@ -49,34 +81,15 @@ article {
     text-transform: uppercase;
 }
 
-nav > ul > li {
-    display: inline-block;
-    padding: 10px 5px;
-    font-size: 20px;
-    margin: 0% 0.5%;
-    width: 7%;
-    text-align: center;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-nav > ul > li > a {
-    text-decoration: none;
-    color: white;
-}
-
-nav > ul > li:visited {
-    background-color: lightgreen;
-}
-
-nav > ul > li:hover {
-    border-bottom: 3px white solid;
-}
-
-nav > ul > li:active {
-    background-color: rgb(200, 240, 200);
-}
-
 #content {
     padding: 3% 15%;
+}
+
+#copyright {
+    padding: 1% 0%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: rgb(14, 88, 95);
 }

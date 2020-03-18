@@ -14,10 +14,10 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-nav > ul > li {
+nav > ul > a > li {
     display: inline-block;
     padding: 10px 5px;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0% 0.5%;
     width: 7%;
     text-align: center;
@@ -25,21 +25,25 @@ nav > ul > li {
     border-top-left-radius: 10px;
 }
 
-nav > ul > li > a {
+nav > ul > a {
+    text-decoration: none;
+}
+
+nav > ul > a > li {
     text-decoration: none;
     color: white;
 }
 
-nav > ul > li:visited {
+nav > ul > a > li:visited {
     background-color: lightgreen;
 }
 
-nav > ul > li:hover {
+nav > ul > a > li:hover {
     border-bottom: 3px white solid;
 }
 
-nav > ul > li:active {
-    background-color: rgb(200, 240, 200);
+nav > ul > a > li:active {
+    background-color: hsl(185, 63%, 40%);
 }
 
 h1{
