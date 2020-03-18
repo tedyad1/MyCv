@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
     <link rel="icon"  href="./asset/Images/MyCV_icon.ico" type="image/x-icon">
-
-    <style>
-        /* body {
+    <link rel="stylesheet" href="./asset/CSS/contact.css">
+    <!-- <style>
+        body {
             background-image: url(https://images.pexels.com/photos/3626734/pexels-photo-3626734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) ;
             background-repeat: no-repeat;
             background-size: cover;
-        } */
+        }
 
         img {
             float: left;
@@ -26,109 +26,122 @@
         #clear {
             clear: left;
         }
-    </style>
+    </style> -->
 
 </head>
 <body>
-    <hr>
-    <center>
-        <a href="index.html">Home</a> |
-        <a href="blog.html">Blog</a> |
-        <a href="Contact.html">Contact</a> |
-        <a href="Gallery.html">Gallery</a>
-    </center>
-
-
-    <hr>
-        <img src="./asset/Images/Profile_picture.jpg" alt="Tewodros Admassu Profile picture" width="300" height="auto">
-
-        <h1>Tewodros Admassu</h1>
-        <h3>Student, Addis Ababa University</h3>
-        <p>My name is Tewodros Admassu. I am a second year software engineering student at AAIT.</p>
     
-        <div id="clear">
-            <p></p>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="Gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="myworks.html">My Works</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="top">
+        <div id="pic">
+            <img src="./asset/Images/Profile_picture.jpg" alt="Tewodros Admassu Profile picture" width="300" height="auto">
         </div>
-    <hr>
+        
+        <div id="intro">
+            <h1>Tewodros Admassu</h1>
+            <h1>Student, Addis Ababa University</h1>
+            <p>My name is Tewodros Admassu. I am a second year software engineering student at AAIT.</p>
+        </div>
+        
+    </div>
+
 
     <!-- contact form -->
     
-    <table cellspacing="10">
-        <tr>
-            <td>
-                <form enctype="utf-8" action="mailto:se.tewodros.admassu@gmail.com" method="POST">
-                    
-                    <table cellspacing="10">
-                        <tr>
-                            <td><h3>Leave your comments here</h3></td>
-                        </tr>
-                        <tr>
-                            <td><label for="fName">First Name</label></td>
-                            <td><input type="text" name="fName" id="fName" pattern="[a-zA-Z]{0,}" required></td>
-                        </tr>
-                        <tr>
-                            <td><label for="lName">Last Name</label></td>
-                            <td><input type="text" name="lName" id="lName" pattern="[a-zA-Z]{0,}" required></td>
-                        </tr>
-                        <tr>
-                            <td><label for="email">Email</label></td>
-                            <td><input type="email" name="email" id="email"></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="pass">Password</label>
-                            </td>
-                            <td>
-                                <input type="password" name="password" id="pass" pattern="[a-zA-Z0-9]{8,}" required>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><label for="country">country</label></td>
-                            <td>
-                                <select name="country" id="country">
-                                    <option value="as">Asia</option>
-                                    <option value="a">Africa</option>
-                                    <option value="e">Europe</option>
-                                </select>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td><label for="birthdate">Date of Birth</label></td>
-                            <td>
-                                <input type="date" name="birthdate" id="birthdate">
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td><label for="sex">Sex</label></td>
-                            <td>
-                                <input type="radio" name="sex" id="female">Female<br>
-                                <input type="radio" name="sex" id="male">Male<br>
-                                <input type="radio" name="sex" id="other">Other<br>
-                            </td>
-                        </tr>
+    <div id="inp">
+        <h3>Comments</h3>
+        <form enctype="utf-8" action="mailto:se.tewodros.admassu@gmail.com" method="POST">
             
-                        <tr>
-                            <td><label for="detail">What do you want to say?</label></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td><textarea name="detail" id="detail" cols="80" rows="10"></textarea></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td><input type="submit" value="Submit"></td>
-                        </tr>
-                    </table>
-                </form>   
-            </td>
-            <td>
-                <h3>Where you can find me</h3>
+            <table cellspacing="10" border="">
+                <tr>
+                    <td colspan="2"><h3>Leave your comments here</h3></td>
+                </tr>
+                <tr>
+                    <td><label for="fName">First Name</label></td>
+                    <td><input type="text" name="fName" id="fName" pattern="[a-zA-Z]{0,}" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lName">Last Name</label></td>
+                    <td><input type="text" name="lName" id="lName" pattern="[a-zA-Z]{0,}" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="pass" pattern="[a-zA-Z0-9]{8,}" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="country">country</label></td>
+                    <td>
+                        <select name="country" id="country">
+                            <option value="as">Asia</option>
+                            <option value="a">Africa</option>
+                            <option value="e">Europe</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="birthdate">Date of Birth</label></td>
+                    <td>
+                        <input type="date" name="birthdate" id="birthdate">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="sex">Sex</label></td>
+                    <td>
+                        <input type="radio" name="sex" id="female">Female<br>
+                        <input type="radio" name="sex" id="male">Male<br>
+                        <input type="radio" name="sex" id="other">Other<br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="detail">What do you want to say?</label></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><textarea name="detail" id="detail" cols="80" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>    
+    </div>
+
+
+    <h3>Where you can find me</h3>
                 <div class="mapouter"><div class="gmap_canvas"><iframe width="679" height="494" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20institute%20of%20technolo&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/elementor-review/"></a></div><style>.mapouter{position:relative;text-align:right;height:494px;width:679px;}.gmap_canvas {overflow:hidden;background:none!important;height:494px;width:679px;}</style></div>
-            </td>
-        </tr>
-    </table>
 
     <hr>
     <h3>Contacts</h3>
