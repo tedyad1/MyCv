@@ -47,7 +47,7 @@ nav > ul > li:active {
     border-bottom: 4px solid rgb(24, 134, 161);
     border-bottom-right-radius: 100px;
     border-right: 4px solid rgb(24, 134, 161);
-    
+    box-shadow: 0px 15px 12px 9px rgb(207, 207, 207);
 }
 
 #profile {
@@ -99,6 +99,7 @@ nav > ul > li:active {
     border-bottom: 4px solid rgb(24, 134, 161);
     border-bottom-right-radius: 100px;
     border-right: 4px solid rgb(24, 134, 161);
+    box-shadow: 0px 15px 12px 9px rgb(207, 207, 207);
 }
 #content > h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
