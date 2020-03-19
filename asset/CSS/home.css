@@ -1,5 +1,5 @@
 body {
-    margin-top: 7%;
+    margin-top: 145px;
     margin-left: 0;
     margin-right: 0;
 }
@@ -9,17 +9,16 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 10%;
     box-shadow: 0px 5px 10px rgb(134, 134, 134);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav > ul > a > li {
-    display: inline-block;
-    padding: 10px 5px;
+    display: inline-flex;
+    padding: 10px 38px;
     font-size: 1.25rem;
     margin: 0% 0.5%;
-    width: 7%;
+    min-width: 7%;
     text-align: center;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -27,6 +26,14 @@ nav > ul > a > li {
 
 nav > ul > a {
     text-decoration: none;
+}
+
+nav > ul {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-right: 70px;
 }
 
 nav > ul > a > li {
@@ -49,14 +56,14 @@ nav > ul > a > li:active {
 #intro, #hobbies, #exp, #skill {
     width: 100%;
     border-bottom: 4px solid rgb(24, 134, 161);
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
     box-shadow: 0px 18px 10px 7px rgb(207, 207, 207);
 }
 
 #profile {
     display: inline-block;
-    width: 25%;
+    width: 400px;
     height: 40%;
     padding: 1% 3% 1% 4%;
     text-align: center;
@@ -69,7 +76,7 @@ nav > ul > a > li:active {
     font-size: 2rem;
 }
 
-#profile > h3{
+#profile > h3 {
     font-weight: 200;
     font-size: 1.25rem;
 }
@@ -79,14 +86,18 @@ nav > ul > a > li:active {
     box-shadow: 5px 5px 10px 5px rgb(187, 187, 187);
 }
 
+#intro {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 #content {
+    width: 800px;
     display: inline-block;
-    width: 50%;
     padding: 1% 3% 1% 4%;
     text-align: justify;
-    margin: 0% 5%;
-    position: relative;
-    bottom: 50px;
 }
 
 #content > p {
@@ -95,9 +106,11 @@ nav > ul > a > li:active {
     font-family: sans-serif;
     line-height: 1.55rem;
     font-weight: 500;
+    padding: 0rem 1rem;
 }
 
 #content > h3{
+    padding: 0rem 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
@@ -105,7 +118,7 @@ nav > ul > a > li:active {
 }
 
 #hobbies > h3 , #exp > h3, #skill > h3 {
-    padding-left: 41%;
+    text-align: center;
     padding-top: 2%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.8rem;
@@ -113,44 +126,83 @@ nav > ul > a > li:active {
     color: rgb(14, 88, 95);
 }
 
-#hobbies > ul {
-    padding-left: 43%;
-    padding-bottom: 2%;
+#hobbies > div {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
 }
 
-#hobbies > ul > li {
+#hobbies > div > ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 3%;
+}
+
+#hobbies > div > ul > li {
+    display: inline-block;
     font-family: sans-serif;
     font-size: 1.4rem;
     line-height: 2.5rem;
     font-weight: 400;
 }
 
-#hobbies > ul > li > ul > li {
+#hobbies > div > ul > li > ul > li {
     font-size: 1.2rem;
     line-height: 2rem;
     font-weight: 300;
 }
 
 #exp {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 4%;
     width: 100%;
 }
 
-#exp > table {
-    padding-left: 41%;
-    padding-bottom: 4%;
-    text-align: left;
-    width: 100%;
-    height: 150px;
+#exp > div {
+    display: inline-flex;
+    justify-content: center;
+}
+
+#exp > div > ul  {
+    display: inline-flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+
+#exp > div > ul > li {
+    display: inline-flex;
+}
+
+#exp > div > ul > li > h2 {
     font-family: sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 400;
 }
 
-#skill > table {
-    padding-left: 39.7%;
+#exp > div > ul > li > p {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: gray;
+}
+
+#skill {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#skill > div {
+    display: inline-flex;
+    justify-content: center;
+}
+
+#skill > div > table {
     padding-bottom: 4%;
     text-align: left;
-    width: 75%;
     height: 150px;
     font-family: sans-serif;
     font-size: 1.2rem;
