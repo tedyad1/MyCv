@@ -203,6 +203,7 @@ nav > ul > a > li:active {
 #skill > div > table {
     padding-bottom: 4%;
     text-align: left;
+    width: 550px;
     height: 150px;
     font-family: sans-serif;
     font-size: 1.2rem;
